@@ -22,16 +22,16 @@ header h1{
 }
 
 .flex-item a {
-    text-decoration: none; /* No underline by default */
-    color: white; /* White text */
+    text-decoration: none; 
+    color: white; 
     padding: 10px;
 }
 
 .flex-item a:hover {
-    text-decoration: underline; /* Underline on hover */
+    text-decoration: underline; 
 }
 
-main{
+.index main{
     background-color: #d4d4d4;
     text-align: center;
     padding: 20px;
@@ -45,12 +45,97 @@ footer{
     text-align: center;
 }
 
-main ul{
+.login main ul{
     padding: 0;
     margin: 0;
     list-style-type: none;
 }
 
-main h2{
+.index main h2{
     color:#004080;
+}
+
+.login h2{
+    text-align: center;
+    color:#004080;
+}
+
+.login main .flex-container{
+    display: flex;
+    flex-direction: column;
+    background-color: #d4d4d4;
+    text-align: center;
+    padding: 30px;
+    margin-left: 150px;
+    margin-right: 150px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px grey;
+}
+
+.login #Password{
+    background-color: light yellow;
+    padding: 10px;
+    border-radius: 5px;
+    border-color: dark gray;
+    border: 3px;
+}
+
+.login #Username{
+    background-color: light yellow;
+    padding: 10px;
+    border-radius: 5px;
+    border-color: dark gray;
+    border: 3px;
+}
+
+.login .button{
+    background-color: #008000;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    margin: auto;
+}
+
+.login button:hover{
+    background-color: #006600;
+}
+
+.leaderboard main{
+    text-align: center;
+}
+
+.leaderboard table{
+    width: 100%;
+    border: 1px;
+}
+
+#table-header{ 
+    background-color: #4CAF50; 
+    color:white; 
+    font-size: 45px;
+}
+
+#table-gold{
+    background-color: #FFD700;
+}
+
+#table-silver{
+    background-color: #C0C0C0;
+}
+
+#table-bronze{
+    background-color: #CD7F32;
+}
+
+#table-alt1{
+    background-color: #f9f9f9;
+}
+
+#table-alt2{
+    background-color: #e4e2e2;
+}
+
+.leaderboard table tr td img{
+    border-radius: 50%;
+    border: 1px solid black;
 }
